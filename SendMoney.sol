@@ -18,4 +18,8 @@ contract SendmoneyExample {
         
         to.transfer(this.getBalance()); 
     }
+    
+    function withdrawMoneyTo(address payable _to) public {
+        _to.transfer(this.getBalance());
+    }
 }
