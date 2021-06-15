@@ -1,6 +1,6 @@
 pragma solidity ^0.6.0;
 
-contract FractionExample {
+contract FunctionExample {
     
     mapping(address => uint) public balanceReceived;
     
